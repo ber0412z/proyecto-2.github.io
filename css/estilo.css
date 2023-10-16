@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 90%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 90%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+body{
+	background: hsla(226, 76%, 73%, 0.432);
+	font-family: verdana;
+}
+.container{
+	width: 1200px;
+	background: white;
+	margin: 10px auto;
+}
+.superior{
+	background: #1551a1;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 300px;
+	padding: 35px;
+}
+/*estilos para el menu*/
+.menu{
+	float: left; /*con este codigo diremosque flote*/
+	padding: 50px;
+}
+.opciones li{
+	float: left;
+	list-style: none; /*que floten las viñetas */
+}
+.opciones li a{
+	color:white; /*cambiamos el color de texto de azul a blanco*/
+	padding: 25px; /*la separacion de texto*/
+	text-decoration: none; /*desimos que se quiten las lineas de abajo */
+	border: 1px solid white; /*lo ponemos vorde*/
+	}
+
+.opciones li a:hover{
+	background: #0d356a; /*que cambie de color al apuntar el cursor*/
+}
+/*estilos para el cuerpo*/
+.cuerpo{
+	overflow: hidden;
+}
+.caja{
+	float:left; /*daremos el tamaño*/
+	width: 380px;
+	margin: 8px;
+	border:1px solid;
+}
+.subtitulo{
+	background: #1551a1;
+}
+.servicios{
+	color: white;
+	text-align: center;
+	padding: 15px 0;
+}
+.efecto:hover{/*daremos efecto a nuestra imagen*/
+	opacity: 0.8;
+	cursor: pointer;
+}
+.contenido{
+	padding: 20px;
+	text-align: justify;
+}
+.boton{
+	padding:15px 20px;
+	margin: 20px 0;
+	color: white;
+	background: #144a91;
+	border-radius: 5px ; 
+}
+.boton:hover{
+	background: #0c2c57;
+	cursor: pointer;
+}
+.titulo{
+	text-align: center;
+	padding: 20px 0 15px 0; 
+	color:#ff7600;
+	font-size: 35px;
+}
+
