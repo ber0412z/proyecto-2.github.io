@@ -1,54 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: lato;
-}
 
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 50px;
-}
-
-.slider-frame {
-	width: 1280px;
-    height: auto;
-	margin:50px auto 0;
-	overflow: hidden;
-}
-
-.slider-frame ul {
-	display: flex;
+*{
+	margin: 0;
 	padding: 0;
-	width: 400%;
-	
-	animation: slide 20s infinite alternate ease-in-out;
-}
-
-.slider-frame li {
-	width: 90%;
-	list-style: none;
-}
-
-.slider-frame img {
-	width: 90%;
-}
-
-@keyframes slide {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
 }
 body{
-	background: hsla(226, 76%, 73%, 0.432);
+	background: #3a3d47;
 	font-family: verdana;
 }
 .container{
@@ -127,4 +83,32 @@ body{
 	color:#ff7600;
 	font-size: 35px;
 }
+/*estilo de footer*/
+.pie{
+	background: #062348;
+	overflow: hidden;
+}
+
+.izquierda{
+	float: left;
+	width: 400px;
+	padding: 25px;
+}
+
+.derecha{
+	float: left;
+	width: 400px;
+	padding: 25px;
+}
+.abajo{
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+}
+.siguenos{
+	text-align: center;
+	color: white;
+	padding: 15px 0;
+}
+*/
 
